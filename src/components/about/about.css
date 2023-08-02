@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:wght@500;600&display=swap');
+
+.footer-section {
+    background: #000000;
+    padding-top: 50px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fs-about {
+    margin-bottom: 30px;
+}
+.fs-about .fa-logo {
+    margin-bottom: 30px;
+}
+
+
+.imge {
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.fs-about p {
+    line-height: 26px;
+    color: #c4c4c4;
+    font-size: 14px;
+    font-family: "Muli", sans-serif;
+    color: #a9a9a9;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+}
+
+.fs-about .fa-social a {
+    font-size: 14px;
+    color: #c4c4c4;
+    margin-right: 10px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fs-widget {
+    margin-bottom: 30px;
+}
+
+.fs-widget h4 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 18px;
+    font-size: 24px;
+}
+
+.fs-widget ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.fs-widget ul li {
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+.fs-widget h4 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 18px;
+    font-family: "Oswald", sans-serif;
+}
+
+.fs-widget .fw-recent {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.fs-widget .fw-recent h6 {
+    margin-bottom: 6px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.fs-widget .fw-recent h6 a {
+    color: #c4c4c4;
+    letter-spacing: 0.5px;
+}
+
+.fs-widget .fw-recent ul li {
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    color: #4d4d4d;
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+}
+
+.fa-logo{
+    display: flex;
+     font-size: 6rem;
+    color: white;
+}
+
+.fa-logo h3{
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.fs-widget ul li a:hover{
+    color: orange !important;
+}
+
+.fa-social a:hover{
+    color: orange !important;
+}

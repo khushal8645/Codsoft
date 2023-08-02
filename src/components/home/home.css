@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500;600&family=Roboto:wght@900&display=swap');
+
+.page{
+    width: 100%;
+    height: 41rem;
+}
+
+img{
+    width: 100%;
+    height: 41rem;
+}
+
+a{
+    color: white;
+}
+
+h1,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: #524a4a;
+    font-size: 7rem
+}
+
+p{
+  color: white;
+}
+
+.st{
+    padding-bottom: 3rem;
+}
+
+.st h1{
+    padding-right: 70rem;
+}
+
+.st p{
+    padding-right: 65rem;
+    font-size: 1.2rem;
+}
+
+.line{
+    border-left: 6px solid#f36100;
+    height: 3rem;
+}
+
+.nd{
+    padding-left: 50rem;
+    padding-bottom: 6rem;
+}
+
+.nd h1{
+    color: rgb(20, 2, 2);
+    line-height: 7rem;
+    text-align: left;
+}
+
+.nd p{
+    text-align: left;
+    font-size: 1.2rem;
+    padding-right: 12rem;
+}
+
+.line2{
+    border-left: 6px solid rgb(33, 31, 31);
+    height: 3rem;
+}
+
+
+.rd{
+    padding-left: 55rem;
+    padding-bottom: 5rem;
+
+}
+
+
+.rd h1{
+    color: #524a4a;
+    line-height: 7rem;
+    text-align: right;
+}
+
+.rd p{
+    text-align: right;
+    font-size: 1.2rem;
+    padding-left: 10rem;
+    color: #ffffff;
+}
+
+.line3{
+    border-left: 6px solid #f36100;
+    height: 5rem;
+    margin: 0 12rem;
+}
+

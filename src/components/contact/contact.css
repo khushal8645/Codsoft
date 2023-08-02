@@ -1,0 +1,77 @@
+#contact{
+    padding-bottom: 3.5rem;
+}
+
+.contact_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 16% 17%;
+    gap: 10%;
+    justify-content: center;
+}
+
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact_option{
+    background: darkorange;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.contact_option:hover{
+    background: transparent;
+    border-color: orange;
+}
+
+.conatct_icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h5{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+
+/* form */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,textarea{
+    background: transparent;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid grey ;
+    resize: none;
+    color: white;
+}
+
+.btn{
+    background-color: darkorange;
+}
+
+.btn:hover{
+    color: darkorange;
+    background-color: transparent;
+    border: 1px solid orange !important;
+}
+

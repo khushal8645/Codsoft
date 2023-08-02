@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:wght@500;600&display=swap');
+
+
+#price-container {
+    background: #000000;
+    padding-bottom: 3rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heding {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.title {
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.title span {
+    font-size: 16px;
+    color: #f36100;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+}
+
+.title h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.prices {
+    justify-content: center;
+    display: flex;
+}
+
+.col-md-4 {
+    position: relative;
+    width: 30%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ps-item{
+    text-align: center;
+    padding: 40px 30px 52px;
+    border: 1px solid #464646;
+    -webkit-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.ps-item h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 16px;
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.pi-item{
+    margin-bottom: 30px;
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+    transition: 0.2s ease-in-out;
+}
+
+.pi-item h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #f36100;
+    font-weight: 600;
+}
+
+.pi-item span{
+    color: #c4c4c4;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ps-item ul{
+    margin-bottom: 40px;
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.ps-item ul li{
+    font-size: 14px;
+    color: #c4c4c4;
+    line-height: 32px;
+    list-style: none;
+}
+
+.ps-item a{
+    font-family: 'Mulish', sans-serif;
+    display: block;
+    background: #333333;
+    -webkit-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    transform: skewY(4deg);
+}
+
+.ps-item:hover{
+    background: #ffffff;
+    border-color: #ffffff;
+    
+}
+
+.ps-item:hover h3{
+    color: #000000;
+}
+.ps-item:hover span{
+    color: #000000;
+}
+.ps-item:hover ul li{
+    color: #000000;
+}
+
+.ps-item:hover .primary-btn.pricing-btn {
+    background: #f36100;
+    font-size: larger;
+}
+
+
+
+
+
